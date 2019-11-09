@@ -1,0 +1,65 @@
+#RQMachine {
+  background-color: #33cc33;
+  transition: background-color 1s;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote-box {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 60vw;
+  border-radius: 3px;
+  padding: 2vw;
+  color: #33cc33;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+#text {
+  flex: 100%;
+  font-size: 20px;
+}
+
+#author {
+  flex: 100%;
+  text-align: right;
+  font-size: 15px;
+}
+
+#button-holder {
+  flex: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#tweet-quote {
+  background-color: #33cc33;
+  transition: background-color 1s;
+  color: white;
+  border-radius: 3px;
+  font-size: 30px;
+  padding: 10px;
+  outline: 0;
+}
+
+#new-quote {
+  background-color: #33cc33;
+  transition: background-color 1s;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 20px;
+  padding: 10px;
+  outline: 0;
+}
+
+#creator {
+  margin-top: 5px;
+  color: white;
+  font-size: 10px;
+}
